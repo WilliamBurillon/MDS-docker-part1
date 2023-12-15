@@ -1,3 +1,15 @@
 {
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "compiiile": "^2.1.4"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "vite": "^4.5.0"
+  },
+  "scripts": {
+    "build": "compiiile build",
+    "preview": "serve dist"
+  }
+
 }
